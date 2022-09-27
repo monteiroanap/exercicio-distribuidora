@@ -28,6 +28,7 @@ public class Produto {
     }
 
     public double calcular(int quantidadeDeProdutos) {
+        System.out.println("O valor então é: ");
         return this.preco * quantidadeDeProdutos;
     }
 
