@@ -9,7 +9,7 @@ public class Distribuidora {
         pereciveis[3] = new Pereciveis("fruta", 2.00, 1);
         pereciveis[4] = new Pereciveis("tomate", 2.50, 2);
 
-        for(int i = 0; i<pereciveis.length ; i++){
+        for (int i = 0; i < pereciveis.length; i++) {
             System.out.println((pereciveis[i]));
             System.out.println(pereciveis[i].calcular(5));
         }
@@ -22,6 +22,11 @@ public class Distribuidora {
         naopereciveis[4] = new NaoPereciveis("pipoca", 5.00, "guloseimas");
 
 
+        System.out.println(naopereciveis[0]);
+        System.out.println(naopereciveis[1]);
+        System.out.println(naopereciveis[2]);
+        System.out.println(naopereciveis[3]);
+        System.out.println(naopereciveis[4]);
 
     }
 }
