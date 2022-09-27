@@ -19,10 +19,10 @@ public class Pereciveis extends Produto {
 
     @Override
     public String toString() {
-        return "Pereciveis{" +
+        return "Os produtos Pereciveis {" +
                 "nome='" + nome + '\'' +
-                ", preco=" + preco +
-                ", dias para vencer =" + getDiasParaVencer() +
+                ", tem o preco = " + preco +
+                ", e o esta com o total de "  + getDiasParaVencer() + " dias para vencer = " +
                 '}';
     }
 
