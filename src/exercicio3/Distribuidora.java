@@ -11,7 +11,7 @@ public class Distribuidora {
 
         for(int i = 0; i<pereciveis.length ; i++){
             System.out.println((pereciveis[i]));
-            System.out.println(pereciveis[i].calcular(1));
+            System.out.println(pereciveis[i].calcular(5));
         }
 
         NaoPereciveis[] naopereciveis = new NaoPereciveis[5];
