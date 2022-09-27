@@ -1,21 +1,31 @@
 package exercicio3;
 
 
-public class Pereciveis extends Produto{
+public class Pereciveis extends Produto {
     private int diasParaVencer;
 
-    public Pereciveis(int diasParavencer) {
+    public Pereciveis(String nome, double preco, int diasParavencer) {
+        super(nome, preco);
+        this.diasParaVencer = diasParavencer;
     }
-    public int getDiasParaVencer(){
+
+    public int getDiasParaVencer() {
         return diasParaVencer;
     }
-    public void setDiasParaVencer(int diasParaVencer){
+
+    public void setDiasParaVencer(int diasParaVencer) {
         this.diasParaVencer = diasParaVencer;
     }
+
     @Override
-    public String toString(){
-        return "ana";
+    public String toString() {
+        return "Pereciveis{" +
+                "nome='" + nome + '\'' +
+                ", preco=" + preco +
+                ", dias para vencer =" + getDiasParaVencer() +
+                '}';
     }
+
     @Override
     public double calcular(int quantidadeDeProdutos) {
         if (this.diasParaVencer == 1) {
